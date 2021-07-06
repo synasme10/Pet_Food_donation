@@ -1,0 +1,158 @@
+body
+{
+    margin:0 auto;
+}
+.ask
+{
+    height: 310px;
+    width:81%;
+    background-color:#013243;
+    padding:1em 8em;
+}
+
+.subask
+{
+
+    float:left;
+}
+
+.subask input[type="submit"]
+{
+    color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 77.2%;
+    height: 3em;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1em;
+    float:left;
+    border: 1px solid grey;
+
+}
+
+.toys
+{
+    height:310px;
+    width:47%;
+    margin-left:45em;
+}
+.subask h1
+{
+    color: #fff;
+    width:400px;
+    margin-left: 1em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.question input[type="text"]
+{
+    outline: none;
+    font-size: 14px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    width:75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+
+.question input[type="submit"]
+{
+    color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 10%;
+    height: 2em;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin: 1em 0em 1em 1em;
+    border: 1px solid grey;
+
+}
+
+.question
+{
+    height: auto;
+    width:88.1%;
+    padding:1em 2em 1em 8em;
+    background-color:#22313F;
+    float:left;
+}
+
+.question b
+{
+    font-size: 20px;
+    color:white;
+
+}
+
+.answer
+{
+    height: auto;
+    width:86%;
+    background-color:#34495E;
+    padding:1em 2em;
+}
+
+.ansdec
+{
+    height: auto;
+    width:95%;
+    color:#59ABE3;
+    background-color:#2C3E50;
+    padding:0.5em 2em;
+}
+
+.anscontent
+{
+    height: auto;
+    width:100%;
+
+}
+
+
+.ansby
+{
+    height:80px;
+    width: 30%;
+    color:#4ECDC4;
+    margin:1em 0em 0em 36em;
+}
+
+.ansby a
+{
+    color:white;
+    padding:0.2em 1em;
+    text-decoration: none;
+    background-color: #ff4c4c;
+    color: white;
+}
+
+.pagination
+{
+    text-align: center;
+    width: 100%;
+    background-color:white;
+    font-size:25px;
+}
+
+.pagination a
+{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}

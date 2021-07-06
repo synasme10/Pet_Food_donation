@@ -1,0 +1,248 @@
+
+body
+{
+margin:0;
+background: url(../images/bf.jpg)no-repeat 0px 0px;
+ background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+
+/*for login*/
+.login
+{
+   margin: 0 auto;
+    background: rgba(255, 255, 255, 0.08);
+    background: rgba(19, 17, 17, 0.62);
+    width: 600px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    position: relative;
+    padding: 40px;
+    margin-top: 50px;
+
+}
+
+
+.cancel
+{
+float:right;
+}
+
+.sublogin h1 
+{
+    color: #fff;
+     width:120px;
+     margin-left: 6em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+.register h1
+{
+    color: #fff;
+     width:400px;
+     margin-left: 5em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.sublogin input[type="text"] , .sublogin input[type="password"]
+{
+    outline: none;
+    font-size: 14px;
+    border: none;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    background: rgba(255, 255, 255, 0.21);
+    width:95.9%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.sublogin input[type="submit"] 
+{
+     color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 100%;
+    height: 2.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.5em;
+}
+
+
+
+.login input[type="submit"]:hover {
+    background: #ff4c4c;
+    color: #fff;
+}
+
+.forgotpw a
+{
+color:#fff;
+font-size: 17px;
+text-decoration: none;
+float:right;
+display:inline-block;
+margin-left:50px;
+}
+
+.main{
+    height: auto;
+    width:1341px;
+
+}
+
+.register
+{
+    margin-top:3em;
+    margin-bottom:3em;
+
+}
+
+.contain
+{
+    margin-top:5em;
+    margin-bottom:5em;
+
+}
+.forms
+{
+   margin: 0 auto;
+    background: rgba(255, 255, 255, 0.08);
+    background: rgba(19, 17, 17, 0.62);
+    width: 800px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    position: relative;
+    padding: 40px;
+    margin-top: 5px;
+    font-family: 'Oswald';  
+
+}
+
+label
+{
+    float:left;
+    color:white;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+.forms input[type="text"] , .forms input[type="password"], .forms input[type="date"]
+{
+    outline: none;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.21);
+    width:95.9%;
+    padding: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .forms input[type="email"]
+ {
+    outline: none;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.21);
+    width:95%;
+    padding: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forms input[type="submit"] 
+{
+   
+     color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 100%;
+    height: 2.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.5em;
+
+}
+
+ .gen
+{
+color:white;
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+} 
+
+.forms input[type="radio"]
+{
+margin-left:3em;
+}
+
+.text
+{
+    outline: none;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.21);
+    width:95.9%;
+    
+    padding: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#account
+{   float:left;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    color: white;
+    width:45%;
+    padding: 10px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.register input[type="submit"]:hover {
+    background: #ff4c4c;
+    color: #fff;
+}
+
+#back input[type="submit"] 
+{
+   
+     color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 100%;
+    height: 2.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.5em;
+}

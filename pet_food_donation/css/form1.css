@@ -1,0 +1,215 @@
+body
+{
+margin:0;
+background: url(../images/bf.jpg)no-repeat 0px 0px;
+
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+}
+
+/*for animal*/
+.ani
+{
+   margin: 0 auto;
+    background: rgba(255, 255, 255, 0.08);
+    background: rgba(19, 17, 17, 0.62);
+    width: 800px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    position: relative;
+    padding: 40px;
+    margin-top: 10px;
+    margin-bottom: 3em;
+
+}
+
+
+
+
+.subanimalfrm h1
+{
+    color: #fff;
+     width:400px;
+     margin-left: 4em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.subanimalfrm input[type="text"] , .subanimalfrm input[type="file"]
+{
+    outline: none;
+    font-size: 14px;
+    border: none;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    background: rgba(255, 255, 255, 0.21);
+    width:95.9%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+label
+{
+    float:left;
+    color:white;
+    font-size: 18px;
+    margin-left: 1em;
+}
+
+
+ .animalgen
+{
+color:white;
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+float:left;
+} 
+.subanimalfrm input[type="radio"]
+{
+margin-left:3em;
+float:left;
+margin-left: 8em;
+}
+
+.subanimalfrm input[type="submit"] 
+{
+     color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 200px;
+    font-size: 1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+
+
+
+.subanimalfrm input[type="submit"]:hover {
+    background: #ff4c4c;
+    color: #fff;
+}
+
+
+td
+{
+text-align:center;
+   padding: 5px;
+}
+
+tr:nth-child(even)
+{
+    background: rgba(255, 255, 255, 0.09);
+}
+
+td
+{
+    color: white;
+}
+
+th
+{
+    height:50px;
+    width:6em;
+    text-align: left;
+    padding: 5px;
+    color:#ffffff;
+    text-align: center;
+}
+
+table a
+{
+    text-decoration:none;
+    color:grey;
+}
+
+a:hover
+{
+color:white;
+}
+
+td
+{
+    height: 1em;
+}
+
+
+/*donation form*/
+.donateform
+{
+   margin: 0 auto;
+    background: rgba(255, 255, 255, 0.08);
+    background: rgba(19, 17, 17, 0.62);
+    width: 600px;
+    box-shadow: 2px 2px 21px rgba(0, 0, 0, 0.29);
+    position: relative;
+    padding: 40px;
+    margin-top: 3em;
+    font-family: 'Oswald';  
+}
+
+ .subdonateform input[type="text"]
+ {
+    outline: none;
+    font-size: 14px;
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.21);
+    width:99%;
+    padding: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .subdonateform input[type="submit"] 
+{
+     color: #fff;
+    background: #34bf49;
+    border: none;
+    width: 102%;
+    height: 2.5em;
+    font-size: 1.1em;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.5em;
+}
+
+.subdonateform input[type="submit"]:hover
+{
+        background: #ff4c4c;
+    color: #fff;
+}
+
+.donateform h1 
+{
+    color: #fff;
+     width:120px;
+     margin-left: 4em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.donation_table table
+{
+    margin:2em 21em;
+    width:50.5%;
+}
+
+.donation_table th
+{
+     text-align: center;
+}
+
